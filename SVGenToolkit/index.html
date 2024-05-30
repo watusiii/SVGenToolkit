@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Grid Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SVG Grid Viewer</h1>
+    <div class="grid" id="svgGrid"></div>
+
+    <script>
+        // Folder containing the SVG images
+        const folder = 'images/';
+        const totalImages = 333; // Number of images
+
+        const grid = document.getElementById('svgGrid');
+
+        for (let i = 1; i <= totalImages; i++) {
+            const img = document.createElement('img');
+            img.src = `${folder}${i}.svg`;
+            img.alt = `SVG Image ${i}`;
+            grid.appendChild(img);
+        }
+    </script>
+</body>
+
+</html>
