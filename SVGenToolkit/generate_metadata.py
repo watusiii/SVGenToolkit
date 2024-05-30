@@ -6,7 +6,7 @@ def generate_json_files(num_files, folder_name):
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
     
-    for i in range(1, num_files + 1):
+    for i in range(1, num_files + 1): #Edit to change to your desired details
         data = {
             "name": f"SVG Art #{i:02}",
             "creator": "HBarbarian",
