@@ -1,6 +1,6 @@
 # Project Guide: Creating and Viewing SVG Art with Metadata
 
-Welcome to your project guide! This guide will walk you through the process of generating SVG art, creating corresponding metadata files, and viewing the SVG images in a web browser.
+Welcome to your project guide! This guide will walk you through the process of generating SVG art, creating corresponding metadata files, and viewing the SVG images in a web browser. In this example project the included script generates Picoblots!
 
 ## Prerequisites
 
