@@ -45,7 +45,7 @@ Welcome to your project guide! This guide will walk you through the process of g
    - Select the `SVG_Project` folder and open it.
 
 3. **Open the Terminal:**
-   - Open the terminal in VS Code by pressing `Ctrl + \`` (backtick) or by going to `View` > `Terminal`.
+   - Open the terminal in VS Code by pressing `Ctrl + ` `` (backtick) or by going to `View` > `Terminal`.
 
 4. **Run the SVG Generation Script:**
    - Ensure you are in the `SVG_Project` directory in the terminal.
